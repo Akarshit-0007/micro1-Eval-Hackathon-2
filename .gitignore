@@ -1,0 +1,63 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# ==========================================
+# Environment & Virtualenvs
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Python Byte-code & Caching
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Testing & Coverage (Pytest, DeepEval, etc.)
+# ==========================================
+.pytest_cache/
+.deepeval/
+.coverage
+.coverage.*
+htmlcov/
+junit/
+*.xml
+
+# ==========================================
+# Secrets & Configuration Files
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ==========================================
+# IDEs & Editors (PyCharm, VS Code, OS)
+# ==========================================
+# JetBrains / PyCharm
+.idea/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System Files
+.DS_Store
+Thumbs.db
