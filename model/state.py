@@ -6,6 +6,7 @@ class InputState(BaseModel):
     files: Optional[List[str]] = None
 
 class OutputState(BaseModel):
+    contain_files: bool
     output: Optional[str] = None  # Gives it a default so it's not strictly required at initialization
 
 class OverAllState(InputState, OutputState):
