@@ -9,7 +9,7 @@ def run_local_qwen():
         "presence_penalty": 1.5, # Reduces text repetition
     }
 
-    prompt = "Write a python script to parse a json log file and extract error codes."
+    prompt = "What is Java"
 
     print(f"--- Sending prompt to local Qwen 3.5 ---\nPrompt: {prompt}\n")
     print("--- Response ---")

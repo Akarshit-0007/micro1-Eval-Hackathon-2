@@ -1,0 +1,133 @@
+Cloud computing delivers IT resources over the internet instead of local servers, allowing scalable access without owning physical hardware.
+
+**Core Models:**
+*   **IaaS (Infrastructure):** Virtual machines and storage (e.g., AWS EC2).
+*   **PaaS (Platform):** Development tools and databases (e.g., Google App Engine).
+*   **SaaS (Software):** Ready-to-use applications (e.g., Salesforce).
+
+**For Dev/QA:** It enables rapid, on-demand testing environments and CI/CD pipelines without upfront infrastructure costs.
+
+Do you want to dive deeper into specific deployment models or cloud impacts on test automation?
+
+--- Execution Complete ---
+(micro1-Eval-Hackathon-26) PS D:\micro1-Eval-Hackathon-26> & d:\micro1-Eval-Hackathon-26\.venv\Scripts\python.exe d:/micro1-Eval-Hackathon-26/main.py
+Graph saved as graph.png
+<langgraph.graph.state.CompiledStateGraph object at 0x0000015CB75D2CF0>
+Hello from micro1-eval-hackathon-26!
+Explain CLoud Computing
+Found: test.txt
+Found: test2.txt
+Found: test3.txt
+Found: test4.txt
+--- Sending prompt to local Qwen 3.5 ---
+Prompt: Explain CLoud Computing
+
+Attached Files: ['test.txt', 'test2.txt', 'test3.txt', 'test4.txt']
+
+--- Response ---
+# Cloud Computing - Comprehensive Explanation
+
+## Overview
+
+**Cloud Computing** is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet ("the cloud") on a pay-as-you-go basis. Instead of owning physical hardware or maintaining on-premises infrastructure, organizations access resources through service providers like AWS, Azure, Google Cloud, etc.
+
+---
+
+## Core Characteristics
+
+| Characteristic | Description |
+|----------------|-------------|
+| **On-demand self-service** | Users can provision resources automatically without human intervention |
+| **Broad network access** | Accessible via device and platform over a network |
+| **Resource pooling** | Multi-tenant infrastructure with elastic provisioning |
+| **Measured services** | Pay-per-use model with clear resource usage tracking |
+
+---
+
+## Cloud Service Models
+
+### 1. Infrastructure as a Service (IaaS)
+- Provides virtualized computing resources over the internet
+- Users control operating systems, middleware, runtime environments
+- Examples: Amazon EC2, Azure Virtual Machines, Google Compute Engine
+- **Use Case**: Developers need full control of underlying infrastructure
+
+### 2. Platform as a Service (PaaS)
+- Provides platforms to allow developers to develop, run, and manage applications
+- Handles operating systems, middleware, runtime environments
+- Examples: Google App Engine, Heroku, AWS Elastic Beanstalk
+- **Use Case**: Developers want to focus on application code without managing infrastructure
+
+### 3. Software as a Service (SaaS)
+- Delivers software applications over the internet
+- Users access via web browser or thin client
+- Examples: Salesforce, Google Workspace, Microsoft 365
+- **Use Case**: End users need ready-to-use applications
+
+---
+
+## Key Benefits
+
+### Cost Efficiency
+- Eliminates large upfront capital investment
+- No hardware maintenance costs
+- Scales with demand
+
+### Scalability & Elasticity
+- Resources can be provisioned and released quickly
+- Handle traffic spikes automatically
+- Pay only for what you use
+
+### Reliability & Availability
+- Multiple geographic data centers provide redundancy
+- 99.9%+ uptime SLAs
+- Automated failover capabilities
+
+### Flexibility & Agility
+- Faster deployment cycles
+- Experimentation at low cost
+- Quick adaptation to business needs
+
+---
+
+## Cloud Deployment Models
+
+| Model | Description | Security Level | Cost |
+|-------|-------------|----------------|------|
+| **Public Cloud** | Shared infrastructure, owned by third-party providers | Low (shared) | Lowest |
+| **Private Cloud** | Dedicated to single organization | High | Higher |
+| **Hybrid Cloud** | Combination of public and private clouds | Medium | Variable |
+| **Multi-Cloud** | Use multiple cloud providers simultaneously | Varies | Highest |
+
+---
+
+## Technical Considerations
+
+### Key Challenges:
+- **Security & Compliance**: Data protection, GDPR compliance
+- **Latency**: Network delays for distributed applications
+- **Vendor Lock-in**: Difficulty migrating between providers
+- **Data Transfer Costs**: Egress fees can accumulate
+- **Skill Gap**: Need specialized cloud expertise
+
+### Security Best Practices:
+- Implement Identity and Access Management (IAM)
+- Enable encryption at rest and in transit
+- Regular security audits and penetration testing
+- Use shared responsibility model understanding
+
+---
+
+## Industry Adoption Trends
+
+1. **Serverless Computing** - Event-driven, pay-per-execution model
+2. **Container Orchestration** - Kubernetes for container management
+3. **AI/ML Integration** - Built-in ML services (AWS SageMaker, Azure ML)
+4. **DevOps Automation** - CI/CD pipelines integrated with cloud
+5. **Sustainability** - Carbon-neutral data centers and green computing
+
+---
+
+## Conclusion
+
+Cloud Computing has fundamentally transformed IT infrastructure from capital-intensive on-premises investments to flexible, scalable, and cost-effective services. While there are challenges related to security, compliance, and vendor management, the benefits in scalability, agility, and efficiency make it essential for modern software development organizations.
